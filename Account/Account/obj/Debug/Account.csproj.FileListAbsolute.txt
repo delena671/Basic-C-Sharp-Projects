@@ -1,0 +1,7 @@
+C:\Users\adelinecruz\Source\Repos\Basic_C#_Programs\Account\Account\bin\Debug\Account.exe.config
+C:\Users\adelinecruz\Source\Repos\Basic_C#_Programs\Account\Account\bin\Debug\Account.exe
+C:\Users\adelinecruz\Source\Repos\Basic_C#_Programs\Account\Account\bin\Debug\Account.pdb
+C:\Users\adelinecruz\Source\Repos\Basic_C#_Programs\Account\Account\obj\Debug\Account.csprojAssemblyReference.cache
+C:\Users\adelinecruz\Source\Repos\Basic_C#_Programs\Account\Account\obj\Debug\Account.csproj.CoreCompileInputs.cache
+C:\Users\adelinecruz\Source\Repos\Basic_C#_Programs\Account\Account\obj\Debug\Account.exe
+C:\Users\adelinecruz\Source\Repos\Basic_C#_Programs\Account\Account\obj\Debug\Account.pdb
