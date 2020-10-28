@@ -26,20 +26,20 @@ namespace Math2
 
             Console.WriteLine("Enter A Number");
             int input3 = Convert.ToInt32(Console.ReadLine());
-            double quotient = input3 % 12.5;
+            double quotient = input3 / 12.5;
             Console.WriteLine("Your number divided by 12.5 is: " + quotient);
             Console.ReadLine();
 
             Console.WriteLine("Enter A Number");
             int input4 = Convert.ToInt32(Console.ReadLine());
             bool trueOrFalse = input4 > 50;
-            Console.Write(trueOrFalse.ToString());
+            Console.Write("Is your number bigger than 50?: " + trueOrFalse.ToString());
             Console.ReadLine();
 
             Console.WriteLine("Enter A Number");
             int input5 = Convert.ToInt32(Console.ReadLine());
             int remainder = input5 % 7;
-            Console.WriteLine(remainder);
+            Console.WriteLine("The remainder of your number divided by 7 is: " + remainder);
             Console.ReadLine();
 
 
