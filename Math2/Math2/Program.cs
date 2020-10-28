@@ -12,29 +12,33 @@ namespace Math2
         {
             //This is a simple math with C#
 
-            double num1 = 7.03230923;
-            float num2 = 50f;
-            double total = num1 * num2;
-            Console.WriteLine(total);
+            Console.WriteLine("Enter A Number");
+            int input1 = Convert.ToInt32(Console.ReadLine());
+            int product = input1 * 50;
+            Console.WriteLine("Your number times 50: " + product);
             Console.ReadLine();
 
-            decimal num3 = 2.03230923m;
-            int num4 = 25;
-            decimal product = num3 + num4;
-            Console.WriteLine(product);
+            Console.WriteLine("Enter A Number");
+            int input2 = Convert.ToInt32(Console.ReadLine());
+            int total = input2 + 25;
+            Console.WriteLine("Your number plus 25 is: " + total);
             Console.ReadLine();
 
-            double num5 = 132;
-            float num6 = 12.5f;
-            double quotient = num5 % num6;
-            Console.WriteLine(quotient);
+            Console.WriteLine("Enter A Number");
+            int input3 = Convert.ToInt32(Console.ReadLine());
+            double quotient = input3 % 12.5;
+            Console.WriteLine("Your number divided by 12.5 is: " + quotient);
             Console.ReadLine();
 
-            bool trueOrFalse = 780 > 50;
+            Console.WriteLine("Enter A Number");
+            int input4 = Convert.ToInt32(Console.ReadLine());
+            bool trueOrFalse = input4 > 50;
             Console.Write(trueOrFalse.ToString());
             Console.ReadLine();
 
-            int remainder = 55 % 7;
+            Console.WriteLine("Enter A Number");
+            int input5 = Convert.ToInt32(Console.ReadLine());
+            int remainder = input5 % 7;
             Console.WriteLine(remainder);
             Console.ReadLine();
 
