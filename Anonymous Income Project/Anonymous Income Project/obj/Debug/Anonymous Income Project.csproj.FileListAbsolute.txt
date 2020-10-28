@@ -1,0 +1,7 @@
+C:\Users\adelinecruz\Source\Repos\Basic_C#_Programs\Anonymous Income Project\Anonymous Income Project\obj\Debug\Anonymous Income Project.csprojAssemblyReference.cache
+C:\Users\adelinecruz\Source\Repos\Basic_C#_Programs\Anonymous Income Project\Anonymous Income Project\obj\Debug\Anonymous Income Project.csproj.CoreCompileInputs.cache
+C:\Users\adelinecruz\Source\Repos\Basic_C#_Programs\Anonymous Income Project\Anonymous Income Project\bin\Debug\Anonymous Income Project.exe.config
+C:\Users\adelinecruz\Source\Repos\Basic_C#_Programs\Anonymous Income Project\Anonymous Income Project\bin\Debug\Anonymous Income Project.exe
+C:\Users\adelinecruz\Source\Repos\Basic_C#_Programs\Anonymous Income Project\Anonymous Income Project\bin\Debug\Anonymous Income Project.pdb
+C:\Users\adelinecruz\Source\Repos\Basic_C#_Programs\Anonymous Income Project\Anonymous Income Project\obj\Debug\Anonymous Income Project.exe
+C:\Users\adelinecruz\Source\Repos\Basic_C#_Programs\Anonymous Income Project\Anonymous Income Project\obj\Debug\Anonymous Income Project.pdb
