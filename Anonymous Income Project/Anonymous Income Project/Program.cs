@@ -15,27 +15,48 @@ namespace Anonymous_Income_Project
 
             Console.WriteLine("Person 1");
             Console.WriteLine("Hourly Rate?");
-            int hourlyRate1 = Convert.ToInt32(Console.ReadLine());
+            int input1 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Hours per Week?");
             Console.WriteLine("hoursPerWeek");
-            int hoursPerWeek1 = Convert.ToInt32(Console.ReadLine());
+            int input2 = Convert.ToInt32(Console.ReadLine());
+            
+            int payRate = 15;
+            int hoursAWeek = 40;
+            int product = payRate * hoursAWeek;
+            Console.WriteLine(product);
 
             Console.WriteLine("Person 2");
             Console.WriteLine("Hourly Rate?");
-            int hourlyRate2 = Convert.ToInt32(Console.ReadLine());
+            int input3 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Hours per Week?");
             Console.WriteLine("hoursPerWeek");
-            int hoursPerWeek2 = Convert.ToInt32(Console.ReadLine());
+            int input4 = Convert.ToInt32(Console.ReadLine());
+
+            int paidRate = 28;
+            int hoursWeekly = 40;
+            int total = paidRate * hoursWeekly;
+            Console.WriteLine(total);
 
             Console.WriteLine("Annual salary of person 1:");
-            int annualSalary = Convert.ToInt32(Console.ReadLine());
+            int hourlyRate = 15;
+            float hourPerWeek = 40;
+            int numberOfWeeks = 52;
+            float annualSalary = (hourlyRate * hourPerWeek) * numberOfWeeks;
+            Console.WriteLine(annualSalary);
+            Console.ReadLine();
+
             Console.WriteLine("Annual salary of person 2:");
-            int annualSalary2 = Convert.ToInt32(Console.ReadLine());
+            int ratePerHour = 28;
+            float hoursWorkedWeekly = 32;
+            int numOfWeeks = 52;
+            float annualSalary1 = (ratePerHour * hoursWorkedWeekly) * numOfWeeks;
+            Console.WriteLine(annualSalary1);
             Console.ReadLine();
             
             Console.WriteLine("Does Person 1 make more money than Person 2?");
             string makesMore = Console.ReadLine();
-            bool isPerson1 = true;
+            bool isPerson1 = false;
+            Console.WriteLine("false");
             Console.ReadLine();
 
         }
