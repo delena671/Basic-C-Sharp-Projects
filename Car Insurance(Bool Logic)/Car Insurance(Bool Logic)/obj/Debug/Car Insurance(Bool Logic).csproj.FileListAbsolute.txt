@@ -1,0 +1,7 @@
+C:\Users\adelinecruz\Source\Repos\Basic_C#_Programs\Car Insurance(Bool Logic)\Car Insurance(Bool Logic)\bin\Debug\Car Insurance(Bool Logic).exe.config
+C:\Users\adelinecruz\Source\Repos\Basic_C#_Programs\Car Insurance(Bool Logic)\Car Insurance(Bool Logic)\bin\Debug\Car Insurance(Bool Logic).exe
+C:\Users\adelinecruz\Source\Repos\Basic_C#_Programs\Car Insurance(Bool Logic)\Car Insurance(Bool Logic)\bin\Debug\Car Insurance(Bool Logic).pdb
+C:\Users\adelinecruz\Source\Repos\Basic_C#_Programs\Car Insurance(Bool Logic)\Car Insurance(Bool Logic)\obj\Debug\Car Insurance(Bool Logic).csprojAssemblyReference.cache
+C:\Users\adelinecruz\Source\Repos\Basic_C#_Programs\Car Insurance(Bool Logic)\Car Insurance(Bool Logic)\obj\Debug\Car Insurance(Bool Logic).csproj.CoreCompileInputs.cache
+C:\Users\adelinecruz\Source\Repos\Basic_C#_Programs\Car Insurance(Bool Logic)\Car Insurance(Bool Logic)\obj\Debug\Car Insurance(Bool Logic).exe
+C:\Users\adelinecruz\Source\Repos\Basic_C#_Programs\Car Insurance(Bool Logic)\Car Insurance(Bool Logic)\obj\Debug\Car Insurance(Bool Logic).pdb
