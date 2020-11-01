@@ -1,0 +1,7 @@
+C:\Users\adelinecruz\Source\Repos\Basic_C#_Programs\String Functions\String Functions\bin\Debug\String Functions.exe.config
+C:\Users\adelinecruz\Source\Repos\Basic_C#_Programs\String Functions\String Functions\bin\Debug\String Functions.exe
+C:\Users\adelinecruz\Source\Repos\Basic_C#_Programs\String Functions\String Functions\bin\Debug\String Functions.pdb
+C:\Users\adelinecruz\Source\Repos\Basic_C#_Programs\String Functions\String Functions\obj\Debug\String Functions.csprojAssemblyReference.cache
+C:\Users\adelinecruz\Source\Repos\Basic_C#_Programs\String Functions\String Functions\obj\Debug\String Functions.csproj.CoreCompileInputs.cache
+C:\Users\adelinecruz\Source\Repos\Basic_C#_Programs\String Functions\String Functions\obj\Debug\String Functions.exe
+C:\Users\adelinecruz\Source\Repos\Basic_C#_Programs\String Functions\String Functions\obj\Debug\String Functions.pdb
