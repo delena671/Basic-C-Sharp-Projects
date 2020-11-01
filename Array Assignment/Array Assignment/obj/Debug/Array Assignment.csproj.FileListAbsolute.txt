@@ -1,0 +1,7 @@
+C:\Users\adelinecruz\Source\Repos\Basic_C#_Programs\Array Assignment\Array Assignment\obj\Debug\Array Assignment.csprojAssemblyReference.cache
+C:\Users\adelinecruz\Source\Repos\Basic_C#_Programs\Array Assignment\Array Assignment\obj\Debug\Array Assignment.csproj.CoreCompileInputs.cache
+C:\Users\adelinecruz\Source\Repos\Basic_C#_Programs\Array Assignment\Array Assignment\bin\Debug\Array Assignment.exe.config
+C:\Users\adelinecruz\Source\Repos\Basic_C#_Programs\Array Assignment\Array Assignment\bin\Debug\Array Assignment.exe
+C:\Users\adelinecruz\Source\Repos\Basic_C#_Programs\Array Assignment\Array Assignment\bin\Debug\Array Assignment.pdb
+C:\Users\adelinecruz\Source\Repos\Basic_C#_Programs\Array Assignment\Array Assignment\obj\Debug\Array Assignment.exe
+C:\Users\adelinecruz\Source\Repos\Basic_C#_Programs\Array Assignment\Array Assignment\obj\Debug\Array Assignment.pdb
