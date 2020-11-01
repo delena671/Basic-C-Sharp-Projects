@@ -16,7 +16,7 @@ namespace Car_Insurance_Bool_Logic_
 
             Console.WriteLine("Have you ever had a DUI?");
             int input2 = Convert.ToInt32(Console.ReadLine());
-            int noDUI = 0;
+            bool isNoDUI = input2 < 0;
             Console.ReadLine();
 
             Console.WriteLine("How many speeding tickets do you have?");
@@ -24,12 +24,7 @@ namespace Car_Insurance_Bool_Logic_
             Console.ReadLine();
 
             Console.WriteLine("Qualified?");
-            int minAge = 15;
-            bool isApplicantAge = yourAge > minAge;
-            int absoluteNoDui = 0;
-            bool isApplicantDUI = noDUI == absoluteNoDui;
-            int minSpeedingTickets = 3;
-            bool isApplicantSTicket = input1 < minSpeedingTickets;
+            bool isQualified = false; 
             Console.WriteLine("True");
             Console.ReadLine();
 
