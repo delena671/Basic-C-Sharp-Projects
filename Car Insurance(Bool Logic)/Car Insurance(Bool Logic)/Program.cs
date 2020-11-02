@@ -23,9 +23,8 @@ namespace Car_Insurance_Bool_Logic_
             Console.ReadLine();
 
             Console.WriteLine("Qualified?");
-            bool input3 = false;
-            bool isQualified = (input2 == false && input1 > 15 && input3 == false); 
-            Console.WriteLine("True");
+            bool isQualified = (input2 == false && yourAge > 15 && input1 <= 3); 
+            Console.WriteLine(isQualified);
             Console.ReadLine();
 
 
