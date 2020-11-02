@@ -7,25 +7,24 @@ namespace Array_Assignment
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Write a name");
-            Console.ReadLine();
-            string[] names = { "Adeline", "Joshua", "David", "Daniel" };
+            Console.WriteLine("Pick a number between 0 and 3");
             int input1 = Convert.ToInt32(Console.ReadLine());
+            string[] names = { "Adeline", "Joshua", "David", "Daniel" };
 
             for (int i = 0; i < names.Length; i++)
             {
                 if (input1 == i)
                 {
-                    Console.WriteLine("Match found at index " + names[i]);
+                    Console.WriteLine("Name found at index " + input1 + ":" + names[i]);
                 }
-                else
+                else if (input1 != i)
                 {
                     Console.WriteLine("User input does not match this item in the array.");
                 }
+
             }
 
-            Console.WriteLine("Pick a number");
-            Console.ReadLine();
+            Console.WriteLine("Pick a number between 0 and 4");
             int pickANumber = Convert.ToInt32(Console.ReadLine());
             int[] numArray = new int[5];
             numArray[0] = 5;
@@ -33,38 +32,24 @@ namespace Array_Assignment
             numArray[2] = 20;
             numArray[3] = 30;
             numArray[4] = 40;
-            
-            int[] numArray1 = new int[] { 5, 2, 10, 200, 5000 };
-
-            int[] numArray2 = { 5, 2, 10, 200, 5000 };
-
-            numArray2[5] = 650;
-
-            Console.WriteLine(numArray2[3]);
-            Console.ReadLine();
 
             for (int j = 0; j < numArray.Length; j++)
             {
                 if (pickANumber == j)
                 {
-                    Console.WriteLine("Match found at index " + numArray[j]);
-                }
-                else
-                {
-                    Console.WriteLine("User input does not match this item in the array.");
+                    Console.WriteLine("The value at index " + pickANumber + ":" + numArray[j]);
                 }
             }
             Console.ReadLine();
 
-            Console.WriteLine("Choose a color");
-            Console.ReadLine();
-
+            Console.WriteLine("Choose a number between 0 and 4");
             List<string> colors = new List<string>() { "Pink", "Purple", "Lavender", "Lilac", "Blues" };
-            string userColor = Console.ReadLine();
+            int userColor = Convert.ToInt32(Console.ReadLine());
 
-            foreach (string i in colors)
+            for (int c = 0; c < userColor; c++ )
             {
-                    Console.WriteLine(i);
+                if (userColor == c)
+                    Console.WriteLine(c);
             }
             Console.ReadLine();
 
