@@ -15,8 +15,7 @@ namespace Car_Insurance_Bool_Logic_
             Console.ReadLine();
 
             Console.WriteLine("Have you ever had a DUI?");
-            int input2 = Convert.ToInt32(Console.ReadLine());
-            bool isNoDUI = input2 < 0;
+            bool input2 = Convert.ToBoolean(Console.ReadLine());
             Console.ReadLine();
 
             Console.WriteLine("How many speeding tickets do you have?");
@@ -24,11 +23,10 @@ namespace Car_Insurance_Bool_Logic_
             Console.ReadLine();
 
             Console.WriteLine("Qualified?");
-            bool isQualified = false; 
+            bool input3 = false;
+            bool isQualified = (input2 == false && input1 > 15 && input3 == false); 
             Console.WriteLine("True");
             Console.ReadLine();
-
-
 
 
         }
