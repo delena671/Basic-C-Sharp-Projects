@@ -1,0 +1,7 @@
+C:\Users\adelinecruz\Source\Repos\Basic_C#_Programs\Car Insurance Approval\Car Insurance Approval\bin\Debug\Car Insurance Approval.exe.config
+C:\Users\adelinecruz\Source\Repos\Basic_C#_Programs\Car Insurance Approval\Car Insurance Approval\bin\Debug\Car Insurance Approval.exe
+C:\Users\adelinecruz\Source\Repos\Basic_C#_Programs\Car Insurance Approval\Car Insurance Approval\bin\Debug\Car Insurance Approval.pdb
+C:\Users\adelinecruz\Source\Repos\Basic_C#_Programs\Car Insurance Approval\Car Insurance Approval\obj\Debug\Car Insurance Approval.csprojAssemblyReference.cache
+C:\Users\adelinecruz\Source\Repos\Basic_C#_Programs\Car Insurance Approval\Car Insurance Approval\obj\Debug\Car Insurance Approval.csproj.CoreCompileInputs.cache
+C:\Users\adelinecruz\Source\Repos\Basic_C#_Programs\Car Insurance Approval\Car Insurance Approval\obj\Debug\Car Insurance Approval.exe
+C:\Users\adelinecruz\Source\Repos\Basic_C#_Programs\Car Insurance Approval\Car Insurance Approval\obj\Debug\Car Insurance Approval.pdb
