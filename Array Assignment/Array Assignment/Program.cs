@@ -39,19 +39,31 @@ namespace Array_Assignment
                 {
                     Console.WriteLine("The value at index " + pickANumber + ":" + numArray[j]);
                 }
+                else
+                {
+                    Console.WriteLine("Number is not in the index");
+                }
             }
             Console.ReadLine();
 
-            Console.WriteLine("Choose a number between 0 and 4");
-            List<string> colors = new List<string>() { "Pink", "Purple", "Lavender", "Lilac", "Blues" };
-            int userColor = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Pick a number between 0 and 2");
+            List<string> animals = new List<string>() { "Dog", "Cat", "Bear" };
+            int usersAnimal = Convert.ToInt32(Console.ReadLine());
 
-            for (int c = 0; c < userColor; c++ )
+            for (int a = 0; a < animals.Count; a++ )
             {
-                if (userColor == c)
-                    Console.WriteLine(c);
+                if (usersAnimal == a)
+                {
+                    Console.WriteLine("The value found at index " + usersAnimal + ":" + animals[a]);
+                }
+                else
+                {
+                    Console.WriteLine("Animal is not on the List");
+                }
             }
             Console.ReadLine();
+
+       
 
         }
     }
