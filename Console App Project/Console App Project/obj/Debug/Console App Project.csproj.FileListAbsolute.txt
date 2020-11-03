@@ -1,0 +1,7 @@
+C:\Users\adelinecruz\Source\Repos\Basic_C#_Programs\Console App Project\Console App Project\bin\Debug\Console App Project.exe.config
+C:\Users\adelinecruz\Source\Repos\Basic_C#_Programs\Console App Project\Console App Project\bin\Debug\Console App Project.exe
+C:\Users\adelinecruz\Source\Repos\Basic_C#_Programs\Console App Project\Console App Project\bin\Debug\Console App Project.pdb
+C:\Users\adelinecruz\Source\Repos\Basic_C#_Programs\Console App Project\Console App Project\obj\Debug\Console App Project.csprojAssemblyReference.cache
+C:\Users\adelinecruz\Source\Repos\Basic_C#_Programs\Console App Project\Console App Project\obj\Debug\Console App Project.csproj.CoreCompileInputs.cache
+C:\Users\adelinecruz\Source\Repos\Basic_C#_Programs\Console App Project\Console App Project\obj\Debug\Console App Project.exe
+C:\Users\adelinecruz\Source\Repos\Basic_C#_Programs\Console App Project\Console App Project\obj\Debug\Console App Project.pdb
