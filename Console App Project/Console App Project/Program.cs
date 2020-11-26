@@ -91,14 +91,24 @@ namespace Console_App_Project
             Console.ReadLine();
 
             Console.WriteLine("Vampire Movies");
-            List<string> movies = new List<string>() { "Twilight", "Twilight Saga" };
+            List<string> movies = new List<string>() { "Twilight", "Twilight", "Saga", "Vampires", "Movies"};
+            List<string> matchList = new List<string>();
             string userMovie = Console.ReadLine();
 
             foreach (string movie in movies)
+            if(matchList.IndexOf(movie)== -1)
             {
-                Console.WriteLine("Bella Swan and Edward Cullin" + movies );
+                matchList.Add(movie);
+                Console.WriteLine(movie);
+            }
+            else
+            {
+                Console.WriteLine(movies + "has already appeared on the list");
+                matchList.Add(movie);
             }
             Console.ReadLine();
+
+
 
         }
 
