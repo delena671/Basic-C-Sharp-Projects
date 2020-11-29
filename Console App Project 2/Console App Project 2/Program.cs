@@ -85,9 +85,9 @@ namespace Console_App_Project_2
             List<string> similarCars = new List<string>() { "Honda Civic", "Honda", "Honda Accord", "Acura" };
             string userSimilarity = Console.ReadLine();
 
-            for (var n = 0; n < 5; n++)
+            for (var n = 0; n < similarCars.Count; n++)
             {
-                if (n = userSimilarity)
+                if (similarCars[n] == userSimilarity)
                 {
                     Console.WriteLine(n);
                 }
@@ -95,7 +95,6 @@ namespace Console_App_Project_2
                 {
                     Console.WriteLine("Sorry your input is not on the list.");
                 }
-
             }
             Console.ReadLine();
             //End part five
@@ -106,10 +105,11 @@ namespace Console_App_Project_2
 
             foreach (string percent in carPercentage)
             {
-                if (percent > 85)
+                if (carPopularity.Contains(percent))
                 {
-                    carPopularity.Add(percent);
+                    Console.WriteLine(percent + "Has already appeared before");
                 }
+                    carPopularity.Add(percent);
             }
             Console.WriteLine(carPopularity.Count);
             Console.ReadLine();
