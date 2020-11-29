@@ -1,0 +1,7 @@
+C:\Users\riseu\source\repos\Assignment214\Assignment214\bin\Debug\Assignment214.exe.config
+C:\Users\riseu\source\repos\Assignment214\Assignment214\bin\Debug\Assignment214.exe
+C:\Users\riseu\source\repos\Assignment214\Assignment214\bin\Debug\Assignment214.pdb
+C:\Users\riseu\source\repos\Assignment214\Assignment214\obj\Debug\Assignment214.csprojAssemblyReference.cache
+C:\Users\riseu\source\repos\Assignment214\Assignment214\obj\Debug\Assignment214.csproj.CoreCompileInputs.cache
+C:\Users\riseu\source\repos\Assignment214\Assignment214\obj\Debug\Assignment214.exe
+C:\Users\riseu\source\repos\Assignment214\Assignment214\obj\Debug\Assignment214.pdb
