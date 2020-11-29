@@ -1,0 +1,7 @@
+C:\Users\riseu\source\repos\Console App Project 2\Console App Project 2\bin\Debug\Console App Project 2.exe.config
+C:\Users\riseu\source\repos\Console App Project 2\Console App Project 2\bin\Debug\Console App Project 2.exe
+C:\Users\riseu\source\repos\Console App Project 2\Console App Project 2\bin\Debug\Console App Project 2.pdb
+C:\Users\riseu\source\repos\Console App Project 2\Console App Project 2\obj\Debug\Console App Project 2.csprojAssemblyReference.cache
+C:\Users\riseu\source\repos\Console App Project 2\Console App Project 2\obj\Debug\Console App Project 2.csproj.CoreCompileInputs.cache
+C:\Users\riseu\source\repos\Console App Project 2\Console App Project 2\obj\Debug\Console App Project 2.exe
+C:\Users\riseu\source\repos\Console App Project 2\Console App Project 2\obj\Debug\Console App Project 2.pdb
