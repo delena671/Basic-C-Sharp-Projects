@@ -61,28 +61,29 @@ namespace Console_App_Project_2
             //Assignment part four
             List<string> carColors = new List<string>() { "Candy Apple Red", "White Pearl", "Black Pearl", "Blue", "Silver" };
             Console.WriteLine("What color car do you like?");
-            carColors.Add(input);
-            carColors.Add(input);
-            carColors.Add(input);
-            carColors.Add(input);
-            carColors.Add(input);
+            string userColor = Console.ReadLine();
 
             foreach (var Item in carColors)
             {
-                if (Item == input)
+                if (Item == userColor)
                 {
-                    break;
+                    Console.WriteLine(Item);
                 }
                 else
                 {
-                    Console.WriteLine(carColors);
+                    Console.WriteLine("Match not found.");
                 }
+            }
+            if (!carColors.Contains(userColor))
+            {
+                Console.WriteLine("List does not contain this item.");
             }
             Console.ReadLine();
             //End part four
 
             //Assignment part five
-            List<string> similarCars = new List<string>() { "Honda Civic", "Honda", "Honda Accord", "Acura" };
+            List<string> similarCars = new List<string>() { "Honda Civic", "Honda", "Honda Accord", "Acura", "Acura" };
+            Console.WriteLine("Enter a car name.");
             string userSimilarity = Console.ReadLine();
 
             for (var n = 0; n < similarCars.Count; n++)
