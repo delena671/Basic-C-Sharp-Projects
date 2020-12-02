@@ -1,0 +1,7 @@
+C:\Users\riseu\source\repos\AssignmentPG223\AssignmentPG223\obj\Debug\AssignmentPG223.csprojAssemblyReference.cache
+C:\Users\riseu\source\repos\AssignmentPG223\AssignmentPG223\obj\Debug\AssignmentPG223.csproj.CoreCompileInputs.cache
+C:\Users\riseu\source\repos\AssignmentPG223\AssignmentPG223\bin\Debug\AssignmentPG223.exe.config
+C:\Users\riseu\source\repos\AssignmentPG223\AssignmentPG223\bin\Debug\AssignmentPG223.exe
+C:\Users\riseu\source\repos\AssignmentPG223\AssignmentPG223\bin\Debug\AssignmentPG223.pdb
+C:\Users\riseu\source\repos\AssignmentPG223\AssignmentPG223\obj\Debug\AssignmentPG223.exe
+C:\Users\riseu\source\repos\AssignmentPG223\AssignmentPG223\obj\Debug\AssignmentPG223.pdb
