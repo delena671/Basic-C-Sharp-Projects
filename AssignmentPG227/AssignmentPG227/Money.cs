@@ -8,15 +8,9 @@ namespace AssignmentPG227
 {
     public class Money
     {
-        public int Method1(int x)
+        public int Method1(int x, int y = 2)
         {
-            int result = x * 5;
-            return result;
-        }
-        public int Method2(int x)
-        {
-            int result = x + 20;
-            return result;
+            return x + y;
         }
     }
 }
