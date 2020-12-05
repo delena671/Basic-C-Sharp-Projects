@@ -11,9 +11,12 @@ namespace AssignmentPG228
         public static void Main(string[] args)
         {
             NoReturn classObj= new NoReturn();
-            int x = Convert.ToInt32(Console.ReadLine());
-            int y = Convert.ToInt32(Console.ReadLine());
-            NoReturn.Method1(x, y);
+
+            Console.WriteLine("Pick a number!");
+            int input1 = Convert.ToInt32(Console.ReadLine());
+            int input2 = Convert.ToInt32(Console.ReadLine());
+            classObj.Method1(input1, input2);
+            Console.ReadLine();
         }
     }
 }

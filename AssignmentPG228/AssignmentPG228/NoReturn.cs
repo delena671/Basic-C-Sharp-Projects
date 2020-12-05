@@ -8,7 +8,7 @@ namespace AssignmentPG228
 {
     public class NoReturn
     {
-        public static void Method1(int x,int y)
+        public void Method1(int x,int y)
         {
             Console.WriteLine("-___-");
         }
