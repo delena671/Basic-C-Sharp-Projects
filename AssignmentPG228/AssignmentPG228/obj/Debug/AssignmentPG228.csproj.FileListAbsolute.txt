@@ -1,0 +1,7 @@
+C:\Users\riseu\source\repos\AssignmentPG228\AssignmentPG228\bin\Debug\AssignmentPG228.exe.config
+C:\Users\riseu\source\repos\AssignmentPG228\AssignmentPG228\bin\Debug\AssignmentPG228.exe
+C:\Users\riseu\source\repos\AssignmentPG228\AssignmentPG228\bin\Debug\AssignmentPG228.pdb
+C:\Users\riseu\source\repos\AssignmentPG228\AssignmentPG228\obj\Debug\AssignmentPG228.csprojAssemblyReference.cache
+C:\Users\riseu\source\repos\AssignmentPG228\AssignmentPG228\obj\Debug\AssignmentPG228.csproj.CoreCompileInputs.cache
+C:\Users\riseu\source\repos\AssignmentPG228\AssignmentPG228\obj\Debug\AssignmentPG228.exe
+C:\Users\riseu\source\repos\AssignmentPG228\AssignmentPG228\obj\Debug\AssignmentPG228.pdb
