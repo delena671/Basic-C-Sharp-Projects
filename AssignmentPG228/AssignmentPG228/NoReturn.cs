@@ -8,9 +8,10 @@ namespace AssignmentPG228
 {
     public class NoReturn
     {
-        public void Method1(int x,int y)
+        public void Method1(int x, int y = 3)
         {
-            Console.WriteLine("-___-");
+            int result = x + y;
+            Console.WriteLine(y);
         }
     }
 }
