@@ -10,7 +10,10 @@ namespace AssignmentPG228
     {
         public static void Main(string[] args)
         {
-            Void classAddV = new Void();
+            NoReturn classObj= new NoReturn();
+            int x = Convert.ToInt32(Console.ReadLine());
+            int y = Convert.ToInt32(Console.ReadLine());
+            NoReturn.Method1(x, y);
         }
     }
 }

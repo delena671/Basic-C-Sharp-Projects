@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace AssignmentPG228
 {
-    public class Void
+    public class NoReturn
     {
+        public static void Method1(int x,int y)
+        {
+            Console.WriteLine("-___-");
+        }
     }
 }
