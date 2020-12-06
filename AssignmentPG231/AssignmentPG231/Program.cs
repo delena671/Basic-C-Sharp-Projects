@@ -10,20 +10,19 @@ namespace AssignmentPG231
     {   
         static void Main(string[] args)
         {
-            Class31 classOut = new Class31();
 
             Console.WriteLine("Please enter a number.");
             int input = Convert.ToInt32(Console.ReadLine());
-            classOut.getValue(input);
+            Class31.getValue(input);
             Console.ReadLine();
             
             string x = "1";
             string y = "4";
-            Class31.Add(x, y);
+            Class31.getValue(x, y);
 
             int temp = Convert.ToInt32(Console.ReadLine());
-            classOut.getAnswers(out temp);
-
+            Class31.getAnswers(out temp);
+            Console.ReadLine();
         }
     }
 }
