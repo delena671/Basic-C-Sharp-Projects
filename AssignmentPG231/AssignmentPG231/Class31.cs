@@ -13,17 +13,16 @@ namespace AssignmentPG231
             int result = x / 2;
             Console.WriteLine(result);
         }
-    }
+        public static void Add(string x, string y)
+        {
+            string answer = x + " " + y;
+            Console.WriteLine(answer);
+        }
 
-    public static void Add(string x, string y)
-    {
-        string answer = x + " " + y;
-        Console.WriteLine(answer);
-    }
-
-    public void getAnswers(out int x)
-    {
-        int temp = 5;
-        x = temp;
+        public void getAnswers(out int x)
+        {
+            int temp = 5;
+            x = temp;
+        }
     }
 }
