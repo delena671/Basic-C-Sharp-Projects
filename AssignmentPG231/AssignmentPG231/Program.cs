@@ -7,13 +7,7 @@ using System.Threading.Tasks;
 namespace AssignmentPG231
 {
     class Program
-    {
-        public void getAnswers(out int x)
-        {
-            int temp = 5;
-            x = temp;
-        }
-        
+    {   
         static void Main(string[] args)
         {
             Class31 classOut = new Class31();
@@ -22,12 +16,9 @@ namespace AssignmentPG231
             classOut.getValue(input);
             Console.ReadLine();
 
-        }
-
-        public static void Add(string x, string y)
-        {
-            string answer = x + " " + y;
-            Console.WriteLine(answer);
+            classOut.Add(input);
+            Class31.getAnswers(input);
+           
         }
     }
 }

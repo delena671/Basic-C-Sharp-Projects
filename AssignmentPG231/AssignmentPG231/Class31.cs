@@ -14,4 +14,16 @@ namespace AssignmentPG231
             Console.WriteLine(result);
         }
     }
+
+    public static void Add(string x, string y)
+    {
+        string answer = x + " " + y;
+        Console.WriteLine(answer);
+    }
+
+    public void getAnswers(out int x)
+    {
+        int temp = 5;
+        x = temp;
+    }
 }
