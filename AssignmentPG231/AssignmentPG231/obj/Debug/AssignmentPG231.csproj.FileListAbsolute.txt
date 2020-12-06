@@ -1,0 +1,7 @@
+C:\Users\riseu\source\repos\AssignmentPG231\AssignmentPG231\bin\Debug\AssignmentPG231.exe.config
+C:\Users\riseu\source\repos\AssignmentPG231\AssignmentPG231\bin\Debug\AssignmentPG231.exe
+C:\Users\riseu\source\repos\AssignmentPG231\AssignmentPG231\bin\Debug\AssignmentPG231.pdb
+C:\Users\riseu\source\repos\AssignmentPG231\AssignmentPG231\obj\Debug\AssignmentPG231.csprojAssemblyReference.cache
+C:\Users\riseu\source\repos\AssignmentPG231\AssignmentPG231\obj\Debug\AssignmentPG231.csproj.CoreCompileInputs.cache
+C:\Users\riseu\source\repos\AssignmentPG231\AssignmentPG231\obj\Debug\AssignmentPG231.exe
+C:\Users\riseu\source\repos\AssignmentPG231\AssignmentPG231\obj\Debug\AssignmentPG231.pdb
