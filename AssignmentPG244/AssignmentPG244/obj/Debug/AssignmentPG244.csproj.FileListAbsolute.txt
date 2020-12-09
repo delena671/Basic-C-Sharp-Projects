@@ -1,0 +1,7 @@
+C:\Users\riseu\source\repos\AssignmentPG244\AssignmentPG244\bin\Debug\AssignmentPG244.exe.config
+C:\Users\riseu\source\repos\AssignmentPG244\AssignmentPG244\bin\Debug\AssignmentPG244.exe
+C:\Users\riseu\source\repos\AssignmentPG244\AssignmentPG244\bin\Debug\AssignmentPG244.pdb
+C:\Users\riseu\source\repos\AssignmentPG244\AssignmentPG244\obj\Debug\AssignmentPG244.csprojAssemblyReference.cache
+C:\Users\riseu\source\repos\AssignmentPG244\AssignmentPG244\obj\Debug\AssignmentPG244.csproj.CoreCompileInputs.cache
+C:\Users\riseu\source\repos\AssignmentPG244\AssignmentPG244\obj\Debug\AssignmentPG244.exe
+C:\Users\riseu\source\repos\AssignmentPG244\AssignmentPG244\obj\Debug\AssignmentPG244.pdb

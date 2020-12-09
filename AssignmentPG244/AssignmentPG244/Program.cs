@@ -8,7 +8,7 @@ namespace AssignmentPG244
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             Employee employee = new Employee();
             employee.firstName = "Sample";

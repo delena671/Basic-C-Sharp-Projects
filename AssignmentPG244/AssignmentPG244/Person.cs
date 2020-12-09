@@ -8,9 +8,12 @@ namespace AssignmentPG244
 {
     public abstract class Person
     {
-        string firstName { get; set; }
-        string lastName { get; set; }
-        
-        public abstract void SayName();  
+        public string firstName { get; set; }
+        public string lastName { get; set; }
+
+        public void SayName()
+        {
+            Console.WriteLine("Name:" + firstName + lastName);
+        }  
     }
 }

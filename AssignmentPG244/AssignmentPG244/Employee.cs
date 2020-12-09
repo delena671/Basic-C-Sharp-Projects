@@ -8,9 +8,9 @@ namespace AssignmentPG244
 {
     public class Employee : Person
     {
-        public override void SayName()
+        public void SayName()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Name:" + firstName + lastName);
         }
     }
 }
