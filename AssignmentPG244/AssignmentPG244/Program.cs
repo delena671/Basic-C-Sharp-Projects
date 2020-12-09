@@ -14,6 +14,9 @@ namespace AssignmentPG244
             employee.firstName = "Sample";
             employee.lastName = "Student";
             employee.SayName();
+
+            IQuittable quittable = new IQuittable();
+            quittable.employee = "firstName";
             Console.ReadLine();
 
         }

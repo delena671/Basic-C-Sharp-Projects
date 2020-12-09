@@ -6,11 +6,15 @@ using System.Threading.Tasks;
 
 namespace AssignmentPG244
 {
-    public class Employee : Person
+    public class Employee : Person, IQuittable
     {
         public void SayName()
         {
             Console.WriteLine("Name:" + firstName + lastName);
+        }
+        public void Quit()
+        {
+            Console.WriteLine("Sorry" + firstName + lastName + "You have been let go");
         }
     }
 }
