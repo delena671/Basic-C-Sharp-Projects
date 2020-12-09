@@ -10,13 +10,12 @@ namespace AssignmentPG244
     {
         public static void Main(string[] args)
         {
-            Employee employee = new Employee();
-            employee.firstName = "Sample";
-            employee.lastName = "Student";
-            employee.SayName();
+            IQuittable quittable = new Employee();
+            IQuittable.firstName = "Sample";
+            IQuittable.lastName = "Student";
+            IQuittable.SayName();
 
-            IQuittable quittable = new IQuittable();
-            quittable.employee = "firstName";
+            quittable.Quit();
             Console.ReadLine();
 
         }
