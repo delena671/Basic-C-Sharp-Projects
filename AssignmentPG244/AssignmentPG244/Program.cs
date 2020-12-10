@@ -11,11 +11,11 @@ namespace AssignmentPG244
         public static void Main(string[] args)
         {
             IQuittable quittable = new Employee();
-            IQuittable.firstName = "Sample";
-            IQuittable.lastName = "Student";
-            IQuittable.SayName();
-
+            Employee employee = new Employee();
             quittable.Quit();
+            employee.firstName = "Sample";
+            employee.lastName = "Student";
+            employee.SayName();
             Console.ReadLine();
 
         }
