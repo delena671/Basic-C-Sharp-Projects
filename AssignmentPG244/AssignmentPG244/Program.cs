@@ -10,8 +10,13 @@ namespace AssignmentPG244
     {
         public static void Main(string[] args)
         {
-            IQuittable quittable = new Employee();
+            Person person = new Employee();
             Employee employee = new Employee();
+            employee.firstName = "Adeline";
+            person += Employee;
+
+            IQuittable quittable = new Employee();
+            //Employee employee = new Employee();
             quittable.Quit();
             employee.firstName = "Sample";
             employee.lastName = "Student";

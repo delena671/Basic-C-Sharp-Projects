@@ -14,6 +14,7 @@ namespace AssignmentPG244
         public void SayName()
         {
             Console.WriteLine("Name:" + firstName + lastName);
-        }  
+        }
+
     }
 }

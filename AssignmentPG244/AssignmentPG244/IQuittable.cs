@@ -8,6 +8,8 @@ namespace AssignmentPG244
 {
     interface IQuittable
     {
+        string firstName { get; set; }
+        string lastName { get; set; }
         void Quit();
     }
 }

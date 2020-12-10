@@ -16,5 +16,10 @@ namespace AssignmentPG244
         {
             Console.WriteLine("Sorry" + firstName + lastName + "You have been let go");
         }
+        public static Person operator +(Person person, Employee employee)
+        {
+            person.Employee.Add(employee);
+            return person;
+        }
     }
 }
