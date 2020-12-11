@@ -11,9 +11,9 @@ namespace AssignmentPG244
         public static void Main(string[] args)
         {
             //Interface
-            IQuittable quittable = new Employee<T>();
+            IQuittable quittable = new Employee<string>();
 
-            Employee<T> employee = new Employee<T>();
+            Employee<string> employee = new Employee<string>();
             quittable.Quit();
             employee.firstName = "Sample";
             employee.lastName = "Student";
@@ -21,7 +21,7 @@ namespace AssignmentPG244
             Console.ReadLine();
 
             //AssignmentPG252 Overloading operator
-            Employee<T> employee1 = new Employee<T>();
+            Employee<string> employee1 = new Employee<string>();
             employee.id = 2;
             employee1.id = 3;
             Console.WriteLine(employee == employee1);

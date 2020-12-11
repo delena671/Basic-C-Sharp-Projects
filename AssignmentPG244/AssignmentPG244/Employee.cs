@@ -8,7 +8,7 @@ namespace AssignmentPG244
 {
     public class Employee<T> : Person, IQuittable
     {
-        public string things { get; set; }
+        Employee<string> things = new Employee<string>();
 
         public string firstName { get; set; }
         public string lastName { get; set; }
