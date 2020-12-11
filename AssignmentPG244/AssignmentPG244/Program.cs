@@ -11,9 +11,9 @@ namespace AssignmentPG244
         public static void Main(string[] args)
         {
             Person person = new Employee();
-            Employee employee = new Employee();
+            EmployeeA employee = new EmployeeA();
             employee.firstName = "Adeline";
-            person += Employee;
+            person += EmployeeA;
 
             IQuittable quittable = new Employee();
             //Employee employee = new Employee();

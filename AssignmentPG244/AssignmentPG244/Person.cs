@@ -16,5 +16,11 @@ namespace AssignmentPG244
             Console.WriteLine("Name:" + firstName + lastName);
         }
 
+        public string EmployeeA { get; set; }
+        public void Person1()
+        {
+            Console.WriteLine(EmployeeA);
+        }
+
     }
 }
