@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AssignmentPG244
 {
-    public abstract class Person
+    public abstract class Person 
     {
         public string firstName { get; set; }
         public string lastName { get; set; }
@@ -21,6 +21,5 @@ namespace AssignmentPG244
         {
             Console.WriteLine(EmployeeA);
         }
-
     }
 }

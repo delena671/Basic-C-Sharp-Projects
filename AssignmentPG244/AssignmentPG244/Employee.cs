@@ -8,6 +8,7 @@ namespace AssignmentPG244
 {
     public class Employee : Person, IQuittable
     {
+        
         public string firstName { get; set; }
         public string lastName { get; set; }
 
@@ -19,15 +20,19 @@ namespace AssignmentPG244
         {
             Console.WriteLine("Sorry" + firstName + lastName + "You have been let go");
         }
-        public static Person operator +(Person person, Employee employee)
-        {
-            person.Employee.Add(employee);
-            return person;
+
+        //Operator Overloading
+        public int id { get; set; } //id property
+        public static bool operator ==(Employee employee, Employee employeeA)  
+        {    //True or False
+            bool B = employee.id == employeeA.id;  
+            return B;
         }
-        public static Person operator -(Person person, Employee employee)
+        public static bool operator !=(Employee employee, Employee employeeA)
         {
-            person.Employee.Remove(employee);
-            return person;
+            bool C = employee.id != employeeA.id;
+            return C;
         }
+        
     }
 }
