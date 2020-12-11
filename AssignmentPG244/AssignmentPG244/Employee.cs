@@ -8,7 +8,6 @@ namespace AssignmentPG244
 {
     public class Employee<T> : Person, IQuittable
     {
-        Employee<string> things = new Employee<string>();
 
         public string firstName { get; set; }
         public string lastName { get; set; }
@@ -34,6 +33,10 @@ namespace AssignmentPG244
             bool C = employee.id != employeeA.id;
             return C;
         }
+
+        //AssignmentPG255
+        public string Things;  //Property
+        public List<T> things = new List<T>();
         
     }
 }
