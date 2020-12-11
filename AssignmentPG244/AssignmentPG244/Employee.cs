@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace AssignmentPG244
 {
-    public class Employee : Person, IQuittable
+    public class Employee<T> : Person, IQuittable
     {
-        
+        public string things { get; set; }
+
         public string firstName { get; set; }
         public string lastName { get; set; }
 
@@ -23,12 +24,12 @@ namespace AssignmentPG244
 
         //Operator Overloading
         public int id { get; set; } //id property
-        public static bool operator ==(Employee employee, Employee employeeA)  
+        public static bool operator ==(Employee<T> employee, Employee<T> employeeA)  
         {    //True or False
             bool B = employee.id == employeeA.id;  
             return B;
         }
-        public static bool operator !=(Employee employee, Employee employeeA)
+        public static bool operator !=(Employee<T> employee, Employee<T> employeeA)
         {
             bool C = employee.id != employeeA.id;
             return C;

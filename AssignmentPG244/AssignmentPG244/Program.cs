@@ -11,9 +11,9 @@ namespace AssignmentPG244
         public static void Main(string[] args)
         {
             //Interface
-            IQuittable quittable = new Employee();
+            IQuittable quittable = new Employee<T>();
 
-            Employee employee = new Employee();
+            Employee<T> employee = new Employee<T>();
             quittable.Quit();
             employee.firstName = "Sample";
             employee.lastName = "Student";
@@ -21,12 +21,21 @@ namespace AssignmentPG244
             Console.ReadLine();
 
             //AssignmentPG252 Overloading operator
-            Employee employee1 = new Employee();
+            Employee<T> employee1 = new Employee<T>();
             employee.id = 2;
             employee1.id = 3;
             Console.WriteLine(employee == employee1);
             Console.WriteLine(employee != employee1);
             Console.ReadLine();
+
+            // AssignmentPG255 Generics
+            Employee<string> things = new Employee<string>();
+            List<string> Thing1 = new List<string>() { "Ball", "Toys", "Shoes" };
+
+            foreach (string stuff in Thing1)
+            {
+                Console.WriteLine(stuff);
+            }
         }
     }
 }
