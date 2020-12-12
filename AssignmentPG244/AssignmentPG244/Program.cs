@@ -29,13 +29,24 @@ namespace AssignmentPG244
             Console.ReadLine();
 
             // AssignmentPG255 Generics
-            Employee<string> things = new Employee<string>();
-            List<string> Thing1 = new List<string>() { "Ball", "Toys", "Shoes" };
 
-            foreach (string stuff in Thing1)
+            Employee<string> things = new Employee<string>();    //object instantiation
+            things.Things = new List<string>() { "Chair", "Desk", "Paper Work" }; //accessing the list
+            //property with the Employee object
+            foreach(string i in things.Things)
             {
-                Console.WriteLine(stuff);
+                Console.WriteLine(things.Things);
             }
+            Console.ReadLine();
+
+            Employee<int> thingNum = new Employee<int>();
+            thingNum.Things = new List<int>() { 0, 1, 2 };
+
+            for(int i = 0; i <= 3; i++)
+            {
+                Console.WriteLine(i);
+            }
+            Console.ReadLine();
         }
     }
 }

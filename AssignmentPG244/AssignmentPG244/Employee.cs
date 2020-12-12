@@ -35,8 +35,9 @@ namespace AssignmentPG244
         }
 
         //AssignmentPG255
-        public string Things;  //Property
-        public List<T> things = new List<T>();
+        //public string Things;  //Property
+        public List<T> Things { get; set; }
         
+
     }
 }
