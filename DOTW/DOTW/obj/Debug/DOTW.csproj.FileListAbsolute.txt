@@ -1,0 +1,2 @@
+C:\Users\riseu\source\repos\DOTW\DOTW\obj\Debug\DOTW.csprojAssemblyReference.cache
+C:\Users\riseu\source\repos\DOTW\DOTW\obj\Debug\DOTW.csproj.CoreCompileInputs.cache
