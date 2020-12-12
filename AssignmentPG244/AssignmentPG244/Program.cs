@@ -35,14 +35,14 @@ namespace AssignmentPG244
             //property with the Employee object
             foreach(string i in things.Things)
             {
-                Console.WriteLine(things.Things);
+                Console.WriteLine(i);
             }
             Console.ReadLine();
 
             Employee<int> thingNum = new Employee<int>();
             thingNum.Things = new List<int>() { 0, 1, 2 };
 
-            for(int i = 0; i <= 3; i++)
+            foreach(int i in thingNum.Things)
             {
                 Console.WriteLine(i);
             }
