@@ -1,0 +1,7 @@
+C:\Users\riseu\source\repos\123struct\123struct\bin\Debug\123struct.exe.config
+C:\Users\riseu\source\repos\123struct\123struct\bin\Debug\123struct.exe
+C:\Users\riseu\source\repos\123struct\123struct\bin\Debug\123struct.pdb
+C:\Users\riseu\source\repos\123struct\123struct\obj\Debug\123struct.csprojAssemblyReference.cache
+C:\Users\riseu\source\repos\123struct\123struct\obj\Debug\123struct.csproj.CoreCompileInputs.cache
+C:\Users\riseu\source\repos\123struct\123struct\obj\Debug\123struct.exe
+C:\Users\riseu\source\repos\123struct\123struct\obj\Debug\123struct.pdb
