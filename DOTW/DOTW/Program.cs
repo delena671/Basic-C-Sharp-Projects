@@ -15,8 +15,8 @@ namespace DOTW
 
             try
             {
-                string Today = day;
-                Console.WriteLine(Today);
+                string Today = { "Days" };
+                Console.WriteLine(Today[Friday]);
             }
             catch(Exception e)
             {
