@@ -1,2 +1,7 @@
 C:\Users\riseu\source\repos\DOTW\DOTW\obj\Debug\DOTW.csprojAssemblyReference.cache
 C:\Users\riseu\source\repos\DOTW\DOTW\obj\Debug\DOTW.csproj.CoreCompileInputs.cache
+C:\Users\riseu\source\repos\DOTW\DOTW\bin\Debug\DOTW.exe.config
+C:\Users\riseu\source\repos\DOTW\DOTW\bin\Debug\DOTW.exe
+C:\Users\riseu\source\repos\DOTW\DOTW\bin\Debug\DOTW.pdb
+C:\Users\riseu\source\repos\DOTW\DOTW\obj\Debug\DOTW.exe
+C:\Users\riseu\source\repos\DOTW\DOTW\obj\Debug\DOTW.pdb

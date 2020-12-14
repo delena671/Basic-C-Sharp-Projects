@@ -11,21 +11,13 @@ namespace DOTW
         static void Main(string[] args)
         {
             Console.WriteLine("What day is today?");
-            Everyday day = Everyday.Friday;
-
-            try
+            string value = "Friday";
+            Everyday everyday;
+            if (Enum.TryParse(value, out everyday))
             {
-                string Today = { "Days" };
-                Console.WriteLine(Today[Friday]);
+                Console.WriteLine(everyday == Everyday.Friday);
             }
-            catch(Exception e)
-            {
-                Console.WriteLine("Please enter an actual day of the week.");
-            }
-            finally
-            {
-                Console.WriteLine("The try/catch is finished, and today is friday.");
-            }
+            Console.ReadLine();
         }
 
     }
