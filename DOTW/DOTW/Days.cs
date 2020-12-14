@@ -6,10 +6,6 @@ using System.Threading.Tasks;
 
 namespace DOTW
 {
-    public class Days
-    {
-        public Everyday Everyday { get; set; }
-    }
     public enum Everyday
     {
         Monday,
