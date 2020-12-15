@@ -10,28 +10,39 @@ namespace Lambda
     {
         public static void Main(string[] args)
         {
-            Employee employee = new Employee();
-            EmployeeID employeeID = EmployeeID();
-            List<Employee> newList = employee.EmployeeID.Where(x => x.firstName == firstName.Joe).ToList();
-
-            foreach (Employee employee in newList)
+            //Part one
+            List<Employee> employee = new List<Employee>
             {
-                Console.WriteLine(EmployeeID.firstName);
+                new Employee {firstName= "Joe", lastName= "Cruz", id = 1},
+                new Employee {firstName= "Adeline", lastName= "Castro", id = 2},
+                new Employee {firstName= "Suki", lastName= "Cruise", id = 3},
+                new Employee {firstName= "John", lastName= "Johnson", id = 4},
+                new Employee {firstName= "David", lastName= "Bailey", id = 5},
+                new Employee {firstName= "Jake", lastName= "DeJesus", id = 6},
+                new Employee {firstName= "Joe", lastName= "Marston", id= 7},
+                new Employee {firstName= "Soo", lastName= "Min", id = 8},
+                new Employee {firstName= "Duran", lastName= "Willson", id = 9},
+                new Employee {firstName= "Jessica", lastName= "Hoyle", id = 10}
+            };
+            //Part Two
+            List<Employee> Joes1 = employee.Where(x => x.firstName == "Joe").ToList();
+            foreach(Employee empJ in Joes1)
+            {
+                Console.WriteLine(empJ.firstName + ' ' + empJ.lastName);
+            }
+             //Part Three
+            List<Employee> Joes2 = employee.Where(x => x.firstName == "Joe").ToList();
+            foreach (Employee empJ2 in Joes2)
+            {
+                Console.WriteLine(empJ2.firstName);
             }
             Console.ReadLine();
-
-            //Lambda Expression
-            List<string> employeeList = new List<string>() 
-            { 
-                "Statton, Nancy ID:0112", 
-                "Newton, Gregory ID:0114", "Opal, Denise ID:16",
-                "Cain, Patti ID:0111", "Cruz, Adeline ID:5",
-                "Moran, Mike ID:23", "Johnson, Joe ID:0105", "Kim, Soo ID:12",
-                "Davis, Joe ID:0113", "Hoyle, Jessica ID:4" 
-            };
-            List<int> idNum = new List<int>() { 0111, 5, 0112, 0114, 15, 23, 0105, 12, 0113, 4 };
-            int Sum = idNum.Where(x => x > 5).Sum();
-            Console.WriteLine(Sum);
+            //Part Four
+            List<Employee> idsGreaterThanFive = employee.Where(x => x.id > 5).ToList();
+            foreach(Employee empID in idsGreaterThanFive)
+            {
+                Console.WriteLine(empID.id);
+            }
             Console.ReadLine();
         }
     }
