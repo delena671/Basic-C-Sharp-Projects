@@ -16,9 +16,11 @@ namespace Logs
             //string text = "input";
             //File.WriteAllText(@"C:\Users\riseu\source\repos\log.txt", text);
             using (StreamWriter file = new StreamWriter(@"C:\Users\riseu\source\repos\log.txt", true))
+
             {
                 file.WriteLine(input);
             }
+            Console.WriteLine(File.ReadAllText(@"C:\Users\riseu\source\repos\log.txt"));
             Console.ReadLine();
         }
     }
