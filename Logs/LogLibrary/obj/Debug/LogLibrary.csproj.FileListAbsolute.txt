@@ -1,0 +1,6 @@
+C:\Users\riseu\source\repos\Logs\LogLibrary\bin\Debug\LogLibrary.dll
+C:\Users\riseu\source\repos\Logs\LogLibrary\bin\Debug\LogLibrary.pdb
+C:\Users\riseu\source\repos\Logs\LogLibrary\obj\Debug\LogLibrary.csprojAssemblyReference.cache
+C:\Users\riseu\source\repos\Logs\LogLibrary\obj\Debug\LogLibrary.csproj.CoreCompileInputs.cache
+C:\Users\riseu\source\repos\Logs\LogLibrary\obj\Debug\LogLibrary.dll
+C:\Users\riseu\source\repos\Logs\LogLibrary\obj\Debug\LogLibrary.pdb
