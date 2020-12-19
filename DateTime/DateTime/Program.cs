@@ -10,11 +10,11 @@ namespace DateAndTime
     {
         public static void Main(string[] args)
         {
-
-            DateTime dateTime = new DateTime ( 2020, 12, 18, 07, 45, 30 );
             Console.WriteLine("Please enter a number.");
             int user = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine(dateTime);
+            DateTime today = DateTime.Now;
+            TimeSpan time = today - user;
+            Console.WriteLine();
             using (StreamWriter file = new StreamWriter(@"C:\Users\riseu\source\repos\DateTime\log.txt", true))
             {
                 file.WriteLine(user);
