@@ -12,10 +12,10 @@ namespace DateAndTime
         {
             Console.WriteLine("Please enter a number.");
             int user = Convert.ToInt32(Console.ReadLine());
-            DateTime today = new DateTime(2020, 12, 18, 09, 28, 30);
+            DateTime today = new DateTime(2020, 12, 19, 11,46, 30);
             int time = today.Hour + user;
-            int totalTime = time + user;
-            Console.WriteLine(totalTime);
+            //DateTime totalTime = new DateTime(time);
+            Console.WriteLine(time);
             using (StreamWriter file = new StreamWriter(@"C:\Users\riseu\source\repos\DateTime\log.txt", true))
             {
                 file.WriteLine(user);
