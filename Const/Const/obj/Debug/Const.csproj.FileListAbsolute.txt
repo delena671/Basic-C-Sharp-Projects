@@ -1,0 +1,7 @@
+C:\Users\riseu\source\repos\Const\Const\bin\Debug\Const.exe.config
+C:\Users\riseu\source\repos\Const\Const\bin\Debug\Const.exe
+C:\Users\riseu\source\repos\Const\Const\bin\Debug\Const.pdb
+C:\Users\riseu\source\repos\Const\Const\obj\Debug\Const.csprojAssemblyReference.cache
+C:\Users\riseu\source\repos\Const\Const\obj\Debug\Const.csproj.CoreCompileInputs.cache
+C:\Users\riseu\source\repos\Const\Const\obj\Debug\Const.exe
+C:\Users\riseu\source\repos\Const\Const\obj\Debug\Const.pdb
