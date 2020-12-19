@@ -14,7 +14,8 @@ namespace DateAndTime
             int user = Convert.ToInt32(Console.ReadLine());
             DateTime today = new DateTime(2020, 12, 18, 21, 28, 30);
             int time = today.Hour - user;
-            Console.WriteLine();
+            int totalTime = time + user;
+            Console.WriteLine(totalTime);
             using (StreamWriter file = new StreamWriter(@"C:\Users\riseu\source\repos\DateTime\log.txt", true))
             {
                 file.WriteLine(user);
