@@ -11,7 +11,7 @@ namespace AssignmentPG314
     {
         public static void TryInt( int Try)
         {
-            if(Try < 0)
+            if(Try == 0)
             {
                 throw new Exception();
             }
