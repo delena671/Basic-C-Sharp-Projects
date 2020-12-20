@@ -1,0 +1,7 @@
+C:\Users\riseu\source\repos\AssignmentPG314\AssignmentPG314\bin\Debug\AssignmentPG314.exe.config
+C:\Users\riseu\source\repos\AssignmentPG314\AssignmentPG314\bin\Debug\AssignmentPG314.exe
+C:\Users\riseu\source\repos\AssignmentPG314\AssignmentPG314\bin\Debug\AssignmentPG314.pdb
+C:\Users\riseu\source\repos\AssignmentPG314\AssignmentPG314\obj\Debug\AssignmentPG314.csprojAssemblyReference.cache
+C:\Users\riseu\source\repos\AssignmentPG314\AssignmentPG314\obj\Debug\AssignmentPG314.csproj.CoreCompileInputs.cache
+C:\Users\riseu\source\repos\AssignmentPG314\AssignmentPG314\obj\Debug\AssignmentPG314.exe
+C:\Users\riseu\source\repos\AssignmentPG314\AssignmentPG314\obj\Debug\AssignmentPG314.pdb
