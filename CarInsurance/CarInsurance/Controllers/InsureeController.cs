@@ -93,17 +93,16 @@ namespace CarInsurance.Controllers
                     baseAmount += insuree.SpeedingTicket * 10;
                 }
                 
-                decimal twentyFivePercent = 0.25M;
                 if(insuree.DUI == true)
                 {
-                    baseAmount += twentyFivePercent;
+                    baseAmount += baseAmount * .25m;
                 }
 
-                decimal fiftyPercent = 0.50M;
                 if(insuree.CoverageType == true)
                 {
-                    baseAmount += fiftyPercent;
+                    baseAmount += baseAmount * .5m;
                 }
+                insuree.Quote = baseAmount;
 
                 db.Insurees.Add(insuree);
                 db.SaveChanges();
@@ -177,6 +176,11 @@ namespace CarInsurance.Controllers
                 db.Dispose();
             }
             base.Dispose(disposing);
+        }
+
+        public ActionResult Admin()
+        {
+            return View(db.Insurees.ToList());
         }
     }
 }
