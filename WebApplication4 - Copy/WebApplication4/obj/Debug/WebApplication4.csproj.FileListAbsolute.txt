@@ -1,0 +1,2 @@
+C:\Users\riseu\source\repos\WebApplication4\WebApplication4\obj\Debug\WebApplication4.csprojAssemblyReference.cache
+C:\Users\riseu\source\repos\WebApplication4\WebApplication4\obj\Debug\WebApplication4.csproj.CoreCompileInputs.cache
