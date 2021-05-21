@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\riseu\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\riseu\\.nuget\\packages"
+    ]
+  }
+}
